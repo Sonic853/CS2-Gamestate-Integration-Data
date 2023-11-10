@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "outDir": "dist"
+  }
+}
