@@ -2,13 +2,15 @@
   "name": "cs2-gamestate-integration-data",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "homepage": "https://github.com/Sonic853/CS2-Gamestate-Integration-Data",
   "scripts": {
     "tecw": "tsc -w"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sonic853",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.2.2"
   }
