@@ -1,1 +1,1 @@
-# CS2-Gamestate-Integration-Data
+# CSGO/CS2 Gamestate Integration Data Types
