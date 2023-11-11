@@ -5,19 +5,24 @@
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "types": "./dist/main.d.ts",
       "import": "./dist/main.js",
-      "require": "./dist/main.js"
+      "default": "./dist/main.js"
     },
-    "./package.json": "./package.json",
-    "./*": "./dist/*"
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js",
+      "default": "./dist/*.js"
+    }
   },
   "typesVersions": {
     "*": {
       "*": ["dist/*"]
     }
   },
+  "type": "commonjs",
   "homepage": "https://github.com/Sonic853/CS2-Gamestate-Integration-Data",
   "scripts": {
     "tecw": "tsc -w"
