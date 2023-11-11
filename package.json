@@ -4,6 +4,14 @@
   "description": "",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": ["dist/*"]
+    }
+  },
   "homepage": "https://github.com/Sonic853/CS2-Gamestate-Integration-Data",
   "scripts": {
     "tecw": "tsc -w"
