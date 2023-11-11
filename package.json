@@ -5,8 +5,9 @@
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "exports": {
-    "./*": "./dist/*",
-    ".": "./dist/main.js"
+    ".": "./dist/main.js",
+    "./package.json": "./package.json",
+    "./*": "./dist/*"
   },
   "typesVersions": {
     "*": {
