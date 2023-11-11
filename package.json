@@ -2,9 +2,14 @@
   "name": "cs2-gamestate-integration-data",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.js",
+      "require": "./dist/main.js"
+    },
     "./package.json": "./package.json",
     "./*": "./dist/*"
   },
